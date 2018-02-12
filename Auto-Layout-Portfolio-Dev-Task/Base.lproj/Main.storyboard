@@ -27,9 +27,8 @@
                                 <rect key="frame" x="0.0" y="145" width="125" height="397"/>
                                 <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xth-Tl-zEx" userLabel="Green View">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xth-Tl-zEx" userLabel="Green View">
                                 <rect key="frame" x="67" y="273" width="240" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.30840110780000002" green="0.5618229508" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pzS-78-RSg" userLabel="Black View">
@@ -45,9 +44,12 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="AnV-fS-Chr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5SD-PH-ZaZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Xth-Tl-zEx" secondAttribute="trailing" constant="68" id="8Lx-xw-uB7"/>
+                            <constraint firstItem="Xth-Tl-zEx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="253" id="8ld-YO-5pC"/>
                             <constraint firstItem="iXN-bj-oT3" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" multiplier="1:3" id="HML-c7-tjk"/>
+                            <constraint firstItem="Xth-Tl-zEx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" multiplier="1:1" constant="67" id="Pes-1M-g0a"/>
                             <constraint firstItem="iXN-bj-oT3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="QRz-eN-qBg"/>
-                            <constraint firstItem="iXN-bj-oT3" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="S4J-we-Amp"/>
+                            <constraint firstItem="iXN-bj-oT3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="S4J-we-Amp"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="miO-jK-Pqk" secondAttribute="trailing" id="S6i-0N-3ZN"/>
                             <constraint firstAttribute="bottom" secondItem="miO-jK-Pqk" secondAttribute="bottom" constant="529" id="X6i-RK-88j"/>
                             <constraint firstItem="miO-jK-Pqk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="kmh-9m-tDh"/>
@@ -55,6 +57,7 @@
                             <constraint firstAttribute="top" secondItem="miO-jK-Pqk" secondAttribute="top" id="nRm-a7-pBg"/>
                             <constraint firstItem="AnV-fS-Chr" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" multiplier="1:3" constant="529" id="vI4-IN-Ldm"/>
                             <constraint firstAttribute="bottom" secondItem="AnV-fS-Chr" secondAttribute="bottom" id="wiC-ne-93d"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Xth-Tl-zEx" secondAttribute="bottom" constant="274" id="z8N-el-AEY"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
